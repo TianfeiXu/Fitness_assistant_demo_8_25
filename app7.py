@@ -26,7 +26,38 @@ from typing import List, Dict, Any, Tuple
 import pandas as pd
 import altair as alt
 from dateutil.relativedelta import relativedelta
-import streamlit as st
+
+
+
+# --- Simple password gate (single password via env var) ---
+import streamlit as st, os
+
+APP_PW = os.getenv("FITNESS_APP_PASSWORD")
+if not APP_PW:
+    raise RuntimeError("FITNESS_APP_PASSWORD not set. Please set a strong password via env var.")
+
+if "authed" not in st.session_state:
+    st.session_state.authed = False
+
+def _logout():
+    for k in ("authed","_login_err","_pw_try"):
+        if k in st.session_state: del st.session_state[k]
+
+if not st.session_state.authed:
+    st.title("🔒 Fitness AI Demo – Login")
+    pw = st.text_input("Password", type="password", key="_pw_try")
+    if st.button("Login"):
+        if pw == APP_PW:
+            st.session_state.authed = True
+            st.rerun()
+        else:
+            st.session_state._login_err = "Wrong password."
+    if st.session_state.get("_login_err"):
+        st.error(st.session_state._login_err)
+    st.stop()
+# 顶部右侧给个 logout 按钮（可选）
+st.sidebar.button("Log out", on_click=_logout)
+
 
 # =========================
 # 配置（中文注释，英文界面）

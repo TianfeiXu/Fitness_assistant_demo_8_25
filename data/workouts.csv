@@ -19,3 +19,6 @@ date,exercise,body_part,weight_kg,reps,sets,minutes,rpe,est_met,est_kcal,volume
 2025-09-01,running,cardio,,,,20.0,7.0,8.3,217.9,0.0
 2025-09-03,running,cardio,,,,40.0,,8.3,435.8,0.0
 2025-09-03,squats,legs,,20.0,,0.0,,3.5,0.0,0.0
+2025-09-04,bench_press,chest,45.0,5.0,3.0,6.0,,6.0,47.2,0.675
+2025-09-04,deadlift,legs,70.0,5.0,,0.0,,6.0,0.0,0.0
+2025-09-04,running,cardio,,,,40.0,5.0,8.3,435.8,0.0

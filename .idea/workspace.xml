@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dddba60-b1a6-4bab-9006-d2d6c6cc5c94" name="Changes" comment="-Build a first beta version of code. app.py.&#10;-Works, but there are some problems.">
-      <change afterPath="$PROJECT_DIR$/app2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app7.py" afterDir="false" />
+    <list default="true" id="9dddba60-b1a6-4bab-9006-d2d6c6cc5c94" name="Changes" comment="-app7.py is a perfect working version. The previous versions all have some bugs.&#10;-Add some debug functions.&#10;-App7.py can use the input fitness record text. Generate fitness record form. And record the daily calories trend.  It can also record the current exercise or rest of all parts of the body. If certain parts doesn't get enough exercise, it will remind you. And if certain parts need to rest, it will also remind you. This is displayed on the body part training hit. The hit value of each part will gradually decrease with time.  There are also functions that can be generated through the current fitness status. By clicking Generate suggestions, It can generate corresponding fitness suggestions according to the current fitness situation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app7.py" beforeDir="false" afterPath="$PROJECT_DIR$/app7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,24 +46,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.app.executor": "Run",
-    "Python.app6.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.aiplayground.settings.llm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app6.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.app6">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Fitness_assistant_demo_8_25" />
@@ -143,7 +138,7 @@
       <workItem from="1756417752331" duration="410000" />
       <workItem from="1756418175056" duration="4000" />
       <workItem from="1756418646238" duration="17000" />
-      <workItem from="1756418679396" duration="10685000" />
+      <workItem from="1756418679396" duration="12408000" />
     </task>
     <task id="LOCAL-00001" summary="-Build a first beta version of code. app.py.&#10;-Works, but there are some problems.">
       <option name="closed" value="true" />
@@ -153,7 +148,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756390637953</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-app7.py is a perfect working version. The previous versions all have some bugs.&#10;-Add some debug functions.&#10;-App7.py can use the input fitness record text. Generate fitness record form. And record the daily calories trend.  It can also record the current exercise or rest of all parts of the body. If certain parts doesn't get enough exercise, it will remind you. And if certain parts need to rest, it will also remind you. This is displayed on the body part training hit. The hit value of each part will gradually decrease with time.  There are also functions that can be generated through the current fitness status. By clicking Generate suggestions, It can generate corresponding fitness suggestions according to the current fitness situation.">
+      <option name="closed" value="true" />
+      <created>1756438969883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756438969883</updated>
+    </task>
+    <task id="LOCAL-00003" summary="-app7.py is a perfect working version. The previous versions all have some bugs.&#10;-Add some debug functions.&#10;-App7.py can use the input fitness record text. Generate fitness record form. And record the daily calories trend.  It can also record the current exercise or rest of all parts of the body. If certain parts doesn't get enough exercise, it will remind you. And if certain parts need to rest, it will also remind you. This is displayed on the body part training hit. The hit value of each part will gradually decrease with time.  There are also functions that can be generated through the current fitness status. By clicking Generate suggestions, It can generate corresponding fitness suggestions according to the current fitness situation.">
+      <option name="closed" value="true" />
+      <created>1756438989007</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756438989007</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,7 +172,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-Build a first beta version of code. app.py.&#10;-Works, but there are some problems." />
-    <option name="LAST_COMMIT_MESSAGE" value="-Build a first beta version of code. app.py.&#10;-Works, but there are some problems." />
+    <MESSAGE value="-app7.py is a perfect working version. The previous versions all have some bugs.&#10;-Add some debug functions.&#10;-App7.py can use the input fitness record text. Generate fitness record form. And record the daily calories trend.  It can also record the current exercise or rest of all parts of the body. If certain parts doesn't get enough exercise, it will remind you. And if certain parts need to rest, it will also remind you. This is displayed on the body part training hit. The hit value of each part will gradually decrease with time.  There are also functions that can be generated through the current fitness status. By clicking Generate suggestions, It can generate corresponding fitness suggestions according to the current fitness situation." />
+    <option name="LAST_COMMIT_MESSAGE" value="-app7.py is a perfect working version. The previous versions all have some bugs.&#10;-Add some debug functions.&#10;-App7.py can use the input fitness record text. Generate fitness record form. And record the daily calories trend.  It can also record the current exercise or rest of all parts of the body. If certain parts doesn't get enough exercise, it will remind you. And if certain parts need to rest, it will also remind you. This is displayed on the body part training hit. The hit value of each part will gradually decrease with time.  There are also functions that can be generated through the current fitness status. By clicking Generate suggestions, It can generate corresponding fitness suggestions according to the current fitness situation." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Fitness_assistant_demo_8_25$app.coverage" NAME="app Coverage Results" MODIFIED="1756389465997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
