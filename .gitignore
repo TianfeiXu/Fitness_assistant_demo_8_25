@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large demo media (host via GitHub Releases or external links, not in git)
+*.mp4
+*.mov
+*.avi
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
